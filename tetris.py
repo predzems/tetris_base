@@ -10,7 +10,7 @@ J_max = 21
 screen_x = 300
 screen_y = 600
 
-screen = pygame.display.set_mode((screen_x, screen_y))
+screen = pygame.display.set_mode((screen_x+100, screen_y))
 clock = pygame.time.Clock()
 pygame.display.set_caption("Tetris Pixel Game")
 
